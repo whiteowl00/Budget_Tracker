@@ -20,15 +20,7 @@ const transactionSchema = new Schema(
   }
 );
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/Aaron_db',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
+
 
 
 
